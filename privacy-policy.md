@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Policy
+---
+
 # Solia Privacy Policy
 
 _Version 2.0 — last updated 2026-08-17. Effective upon first in-app acceptance._

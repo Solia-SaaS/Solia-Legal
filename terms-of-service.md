@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terms of Service
+---
+
 # Solia Terms of Service
 
 _Version 1.0 — last updated 2026-08-17. Effective upon first in-app acceptance._

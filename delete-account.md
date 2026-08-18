@@ -1,3 +1,8 @@
+---
+layout: default
+title: Delete your account
+---
+
 # Delete your Solia account
 
 You can delete your Solia account and its data at any time — you do not need to reinstall the app to make the request.

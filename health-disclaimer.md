@@ -1,3 +1,8 @@
+---
+layout: default
+title: Health & Fitness Disclaimer
+---
+
 # Solia Health & Fitness Disclaimer
 
 _Version 1.0 — last updated 2026-08-17. Part of the Terms of Service._

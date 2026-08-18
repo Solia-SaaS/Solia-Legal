@@ -1,3 +1,13 @@
-theme: jekyll-theme-primer
 title: Solia — Legal
 description: Terms of Service, Privacy Policy, and Health Disclaimer for Solia.
+url: https://legal.getsolia.com
+
+# Custom layout in _layouts/default.html — no gem theme.
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+
+exclude:
+  - README.md
