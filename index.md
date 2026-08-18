@@ -4,9 +4,7 @@ layout: default
 
 # Solia — Legal
 
-Solia is a personal life-planning app: schedule your day, track workouts and meals, and receive AI-generated coaching reports, scores, and rankings.
-
-These are the documents that govern your use of it.
+Solia is a Life Operating System designed to align your actions with your goals in order to achieve desired outcomes.
 
 <ul class="doc-list">
   <li><a href="terms-of-service">Terms of Service<span>What you agree to by using Solia — accounts, your content, AI disclosures, subscriptions, and liability.</span></a></li>
