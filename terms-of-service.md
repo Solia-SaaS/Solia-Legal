@@ -5,13 +5,13 @@ title: Terms of Service
 
 # Solia Terms of Service
 
-_Version 1.0 — last updated 2026-08-17. Effective upon first in-app acceptance._
+_Version 1.1 — drafted 2026-09-01. Status: DRAFT for test-cohort use; not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
 
 ---
 
 ## 1. Who we are and what these Terms cover
 
-Solia (the "**App**" or "**Service**") is a personal life-planning application: you schedule your day, track workouts and meals, and receive AI-generated coaching reports, scores, and rankings.
+Solia (the "**App**" or "**Service**") is a personal life-planning application: you schedule your day, track workouts and meals, communicate with other users, and receive AI-generated coaching reports, scores, and rankings.
 
 The Service is operated by **Solia** ("**we**", "**us**"), currently an unincorporated business operated by [OPERATOR LEGAL NAME], based in Ontario, Canada. We plan to incorporate; when that happens, these Terms (and your data) will be assigned to the incorporated entity, and we will notify you and update these Terms. Contact: **legal@getsolia.com**.
 
@@ -24,7 +24,7 @@ You must be **at least 16 years old** to use Solia. By creating an account you r
 ## 3. Your account
 
 - You are responsible for the accuracy of the information you provide and for activity that occurs under your account.
-- Sign-in is provided through third-party authentication (currently Google and Apple). Keep your sign-in method secure; we are not liable for losses caused by unauthorized use of your credentials.
+- Sign-in is provided through Google, Apple, or an email and password. Keep your sign-in method secure; we are not liable for losses caused by unauthorized use of your credentials.
 - One account per person. Do not impersonate others or misrepresent your identity in your username or profile.
 - Usernames are subject to availability and our naming rules; we may reclaim usernames that violate these Terms.
 
@@ -47,8 +47,8 @@ The Service includes fitness, nutrition, sleep, and body-weight features. **Soli
 
 ## 7. Your content
 
-- **What it is:** content you create in the Service — schedule blocks, goals, notes, templates, photos (meals, workouts, stories, avatar), voice commands, bug reports, and profile details.
-- **You own it.** You grant us a worldwide, non-exclusive, royalty-free license to host, store, process, display, and transmit your content solely to operate and improve the Service (including processing through the AI providers described in the Privacy Policy). This license ends when the content or your account is deleted, except where retention is required by law or for backups for a limited period.
+- **What it is:** content you create in the Service — schedule blocks, goals, notes, templates, messages, shared group or business records, photos and videos, voice commands, bug reports, and profile details.
+- **You own it.** You grant us a worldwide, non-exclusive, royalty-free license to host, store, process, display, and transmit your content solely to operate and improve the Service, including processing through the providers described in the Privacy Policy. This license ends when the content is deleted, subject to the Privacy Policy's limited retention of shared collaborative records, other users' records, moderation records, operational cleanup or revocation items, and backups. Deleting an account removes its content and identifiers from surviving shared groups and businesses and transfers ownership when other members remain; deleting either participant also removes the entire one-to-one message thread for both participants.
 - **Social visibility:** stories and activity you share are visible to your approved followers (instantly for public accounts) per the Privacy Policy. You are responsible for what you share.
 - **Leaderboards:** by using the Service, your username, rank, tier, scores, and match results are visible to other users. Leaderboard participation is automatic (see Privacy Policy).
 - You represent that your content does not violate law or third-party rights, and is not content you lack the right to share.
@@ -86,7 +86,7 @@ The Service depends on third parties, including Supabase (hosting), OpenAI (AI p
 
 ## 11. Termination
 
-- **By you:** delete your account at any time in-app (Profile → Delete account). Deletion removes your data as described in the Privacy Policy. You may also deactivate your account temporarily.
+- **By you:** delete your account at any time in-app (Profile → Delete account). Deletion removes your data as described in the Privacy Policy.
 - **By us:** we may suspend or terminate your account for material or repeated violations of these Terms, for suspected abuse or fraud, if required by law, or if we discontinue the Service. Where practical we will give notice and a chance to export or review your data.
 - Sections that by their nature should survive termination (ownership, disclaimers, liability limits, disputes) survive.
 

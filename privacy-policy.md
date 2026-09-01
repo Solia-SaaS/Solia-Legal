@@ -5,89 +5,78 @@ title: Privacy Policy
 
 # Solia Privacy Policy
 
-_Version 2.0 — last updated 2026-08-17. Effective upon first in-app acceptance._
+_Version 2.1 — drafted 2026-09-01. Status: DRAFT for test-cohort use; not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
 
-**Operator:** Solia ([OPERATOR LEGAL NAME]), Ontario, Canada — contact **privacy@getsolia.com**. We plan to incorporate; this policy will be reissued under the incorporated entity with notice to you.
+**Operator:** Solia ([OPERATOR LEGAL NAME]), Ontario, Canada. Contact: **privacy@getsolia.com**. We plan to incorporate; if the operator changes, we will update this policy and notify users as required.
 
-## What Solia is
+## Scope
 
-Solia is a personal life-planning app: you schedule your day, track workouts and meals, and receive AI-generated coaching reports, scores, and rankings. This policy describes what data we collect, how it is used, who processes it, and your rights. Solia is for users **16 and older**; we do not knowingly collect data from anyone under 16, and we delete such accounts when discovered.
+Solia is a personal planning app for users age 16 and older. It provides scheduling, fitness and nutrition tracking, social and messaging features, and AI-generated coaching, scores, and rankings. We do not knowingly collect data from children under 16.
 
 ## Data we collect
 
-Everything below is collected **from you, in the app** — we do not buy data, pull from data brokers, or track you across other apps or websites.
+We collect data you provide in the app and data needed to operate and secure it. We do not buy data from brokers or track you across other apps or websites.
 
-| Category | Examples | Why |
+| Category | Examples | Purpose |
 |---|---|---|
-| Account | Email (via Google or Apple sign-in), username, birthdate | Sign-in, unique identity, age verification |
-| Profile | Goals, constraints, notes to your coach, lifestyle (sleep pattern), body weight, height, biology, fitness preferences | Personalizes coaching |
-| Schedule | Planned and actual time blocks, templates, recurring patterns, sleep times, day anchors | Core product function |
-| Fitness | Workouts, exercises, sets/reps/loads, weigh-ins, workout photos | Core product function |
-| Nutrition | Logged meals, meal photos, food searches | Calorie/macro tracking |
-| Voice | Microphone audio when you speak to the agent | Transcribed to text to execute your command; **audio is not stored on our servers** (see AI processing) |
-| Location | Places you explicitly save (when-in-use permission only) | Attach locations to blocks; commute estimates. We never collect background location |
-| Social | Follows, follow requests, profile header (avatar, bio), stories you post | Social features you choose to use |
-| Device | Push token, platform, timezone (including any in-app timezone override), app version | Deliver notifications at the right local time |
-| Reports & scores | AI coaching reports, LifeScores, ranks, match results | Core product function |
-| Support | Bug reports you submit | Fixing problems |
+| Account | Email when provided, Google or Apple account identifier, username/display name, birthdate | Sign-in, account recovery, identity, age gate |
+| Profile | Goals, constraints, coach notes, sleep pattern, weight, height, biology, fitness preferences | Personalization and coaching |
+| Schedule | Planned and actual blocks, templates, recurring patterns, sleep times, day anchors | Core scheduling |
+| Fitness and nutrition | Workouts, exercises, sets, loads, weigh-ins, meals, food searches, workout and meal photos | Tracking, history, estimates |
+| Voice | Microphone audio and its transcription when you use voice commands | Transcribe and execute the request; Solia does not store the source audio on its servers |
+| Location | Places you explicitly save using while-in-use permission | Attach places to blocks and estimate commutes; no background location |
+| Social and communications | Follows, profile header, stories, direct/group/business messages, reactions, read receipts, memberships, shared photos/videos, avatars, and backgrounds | Social, messaging, group, and business features |
+| Device and security | Random install ID, push token, platform, timezone, app version, IP address and authentication/action events | Sessions, notifications, rate limits, fraud and abuse prevention |
+| Reports and scores | AI coaching reports, LifeScores, ranks, match results | Core product features |
+| Support and moderation | Bug reports and content/account reports | Support, safety, and abuse review |
 
-We do **not** collect contacts, browsing history, advertising identifiers, or analytics/crash telemetry (if we add crash reporting later, this policy will be updated first).
+We do not collect contacts, advertising identifiers, browsing history, or analytics/crash telemetry. If those practices change, we will update this policy and the store declarations first.
 
-## How data is processed
+## How we use and disclose data
 
-- **Supabase** hosts our database, authentication, file storage, and server functions. Data is stored on Supabase infrastructure located in the United States. If this is outside Canada, your data is subject to the laws of that jurisdiction while stored there.
-- **OpenAI (United States)** processes, via API: your voice audio (speech-to-text — the audio is sent for transcription and is not retained on our servers), your typed and transcribed agent commands, meal photos (macro estimation), and your day's data — schedule, fitness, nutrition, goals, notes — to generate coaching reports, scores, and suggestions. Per OpenAI's API terms, API data is not used to train their models.
-- **Google and Apple** provide sign-in (Google OAuth and Sign in with Apple). We receive your email and a basic profile identifier; we never receive your password. If you use Apple's **Hide My Email**, we receive a private relay address instead of your real one.
-- **Expo, Apple, and Google push services** route notifications to your device.
-- **Apple Maps** powers commute estimates and directions links for places you save (when that feature is active).
-- **Payments (future):** when subscriptions launch, payment will be processed by Apple In-App Purchase and/or Stripe. We will never store full card numbers; this policy will be updated before payments go live.
+- **Supabase** hosts authentication, databases, file storage, and server functions in the United States.
+- **OpenAI** processes voice audio for transcription and selected commands, photos, schedule, fitness, nutrition, goals, and notes used to generate requested estimates and coaching. Solia does not opt API data into model training.
+- **Google and Apple** provide sign-in. We receive a provider identifier and, when supplied, an email address; we never receive the provider password. Apple's Hide My Email may supply a relay address instead.
+- **Expo, Apple, and Google** route push notifications.
+- **Apple Maps** powers saved-place commute estimates and directions when used.
 
-**AI-generated content:** reports, scores, suggestions, and estimates are automated outputs, **not professional, medical, or nutritional advice**.
+We use these processors to provide the listed services. We do not sell or rent personal data, use it for targeted advertising, or show ads. AI outputs are automated and are not professional, medical, nutritional, financial, or legal advice.
 
-We do **not** sell or rent your data. We do not show ads. Data goes to the processors above only to provide the product.
+## Visibility
 
-## Social visibility and leaderboards
+- Other users can see your profile header. Public accounts accept followers automatically; private accounts approve them.
+- Stories are shown to followers and leave the feed after 24 hours.
+- Direct messages are visible to their two participants. Group and business content is visible to the relevant members.
+- Leaderboards expose username, avatar, rank, tier, scores, match results, and AI-written summary drivers, not the underlying details of your day.
 
-- Your **profile header** (username, avatar, bio, follower counts) is visible to other users; your account can be public (anyone may follow) or private (you approve followers).
-- **Stories** you post are visible only to your followers and leave the feed after 24 hours (we then remove them from circulation).
-- **Leaderboards are automatic**: every account is scored and ranked from its own activity data. Other users can see your **username, rank, tier, scores, and match results** (including in their match slips against you). Underlying details of your day are not shown — only scores and AI-written summary drivers. If you deactivate your account, scoring pauses and you leave the visible ladder.
+## Retention and deletion
 
-## Retention, deactivation, and deletion
+- **Active account:** data is kept while needed for the account, history, shared features, security, and the purposes above.
+- **Account deletion:** the in-app **Delete account** flow removes the authentication record and account-owned profile, schedule, fitness, nutrition, social, scores, coaching reports, and storage data. You can also contact **privacy@getsolia.com**; we may require identity verification.
+- **One-to-one messages:** deleting either participant's account deletes the entire private one-to-one thread and pair background for both participants, including messages the other participant sent in that thread.
+- **Shared groups and businesses:** a group or business with remaining members survives. Ownership transfers to a remaining member; the departing user's membership and account-linked content are removed, and exact account identifiers embedded in surviving records are cleared or scrubbed. A group or business with no remaining member may be deleted.
+- **Other-user and safety records:** another user's match-history row may remain without a live link to the deleted profile. A moderation report filed by another user may remain for safety review; the deleted account ID is removed and replaced with a random deletion-specific correlation key.
+- **Delayed cleanup and revocation:** deleted direct or group-message media, pair backgrounds, and group avatars or backgrounds can leave a service-only cleanup item containing the storage path and retry metadata. Cleanup is delayed at least 24 hours and runs only after Solia's current reference checks find no live product reference. Apple accounts can leave a service-only revocation item containing the former account ID, Apple refresh token, and retry metadata until Apple confirms revocation. These restricted work items are retained until successfully processed and are not available to app users.
+- **Backups:** deleted data may remain in access-restricted backups for up to about 30 days before those backups expire.
 
-- **Retention:** your data is kept while your account is active, to power your history, reports, and progress views.
-- **Deactivation (temporary):** Profile → Deactivate account hides your profile, stories, and leaderboard presence and pauses coaching, scoring, and notifications. Signing back in reactivates.
-- **Deletion (permanent):** Profile → **Delete account** permanently deletes your data across our database — profile, schedule, fitness, nutrition, photos, social graph, reports, scores — and your authentication record. Match-history rows that belong to *other* users (a past opponent's record that they played someone) are retained on their side without your profile. You can also request deletion by emailing **privacy@getsolia.com** from your account email.
-- **Backups:** deleted data may persist in encrypted database backups for a limited period (up to ~30 days) before those backups expire.
+## Security and local storage
 
-## Security
+Data is encrypted in transit with HTTPS. Database and storage access use row-level security and explicit private, shared, or public scopes; operational deletion and revocation queues are service-only. Native apps store session material as encrypted data whose key is kept in the platform's secure storage. The web app stores session material in ordinary browser storage, so users should sign out on shared browsers. No system is perfectly secure; we will provide breach notices when required by law.
 
-Data is encrypted in transit (HTTPS). Database access is enforced per-user with row-level security. On your device, session tokens are stored encrypted using the operating system keychain. No system is perfectly secure; if we learn of a breach affecting your data we will notify you as required by law.
+## Legal bases and transfers
 
-## Legal bases (where the law requires one)
+Where a legal basis is required, we rely on contract to provide the requested service; consent for optional microphone, camera/photo, location, notification, and health-related features; and legitimate interests for security, abuse prevention, support, and service reliability. Users can withdraw optional permission consent in device settings or stop using the feature. Scores and coaching do not make decisions with legal or similarly significant effects.
 
-Where laws such as the EU/UK GDPR apply, we process your data on these bases: **contract** (everything needed to run the product you signed up for — schedule, coaching, scores, notifications); **consent** (optional permissions: microphone, camera/photos, location, push; health-related data — weight, fitness, nutrition — which you provide by choosing to use those features; you can withdraw any of these at any time by disabling the permission or feature, or deleting your account); and **legitimate interests** (service security, abuse prevention, bug fixing). We make no decisions about you with legal or similarly significant effects — scores and coaching are informational only.
+We operate from Canada. Our processors may store or process data in the United States and other locations identified in their terms. Where required, transfers rely on applicable contractual or legal transfer mechanisms.
 
-## International transfers
+## Your choices and rights
 
-We operate from Canada and our processors (Supabase, OpenAI, Google, Apple, Expo) store or process data in the United States / the United States. Where transfer rules apply (EEA/UK/Switzerland and similar), transfers rely on the processors' standard contractual clauses and/or applicable adequacy frameworks (e.g., the EU–US Data Privacy Framework for certified processors). By using Solia you understand your data is processed in these locations.
-
-## Your rights
-
-Depending on where you live (Canada under PIPEDA and provincial laws; the EEA/UK under GDPR; US states with privacy laws; Brazil under LGPD; and similar regimes), you may have the right to:
-
-- **Access** the personal information we hold about you, and receive a **portable copy** on request;
-- **Correct** inaccurate information (most profile data is editable in-app);
-- **Delete** your data (in-app: Profile → Delete account — this is the fastest path — or by email);
-- **Withdraw consent** at any time (disable a permission, stop using a feature, deactivate, or delete);
-- **Object to or restrict** certain processing;
-- **Not be discriminated against** for exercising any of these rights.
-
-Exercise any of these at **privacy@getsolia.com** from your account email; we respond within the time your local law requires (30 days in most places). You may also complain to your data-protection authority — in Canada, the Office of the Privacy Commissioner (priv.gc.ca); in the EEA/UK, your national supervisory authority; elsewhere, your local regulator. We do not sell or share personal information for advertising in any jurisdiction's sense of those words.
+Depending on location, users may have rights to access, receive a portable copy, correct, delete, restrict, or object to processing, withdraw consent, and complain to a regulator. Use the in-app controls or contact **privacy@getsolia.com**. We respond within the period required by applicable law. We do not discriminate against users for exercising privacy rights.
 
 ## Permissions
 
-The app asks for microphone (speak to your agent), camera and photo library (meal, workout, story, and profile photos; label scanning), location while-in-use (save places), and notifications (block check-ins and coaching). Every permission is optional; denying one disables only its feature.
+Microphone, camera/photo library, while-in-use location, and notification permissions are optional. Denying a permission disables only the feature that needs it.
 
 ## Changes
 
-We will update this policy as the product evolves (including before payments or any analytics tooling launch), note the version and date at the top, and notify you in-app of material changes, with re-acceptance where required.
+We will identify material updates by version and date, publish them before activation, and request re-acceptance when required.
