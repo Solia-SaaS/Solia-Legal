@@ -5,7 +5,7 @@ title: Terms of Service
 
 # Solia Terms of Service
 
-_Version 1.1 — drafted 2026-09-01. Status: DRAFT for test-cohort use; not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
+_Version 1.2 — drafted 2026-09-12. Status: DRAFT for test-cohort review; not activated. Not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
 
 ---
 
@@ -31,6 +31,8 @@ You must be **at least 16 years old** to use Solia. By creating an account you r
 ## 4. License
 
 We grant you a personal, limited, non-exclusive, non-transferable, revocable license to use the App on devices you own or control, for your personal, non-commercial use, subject to these Terms and (for iOS) the Apple App Store Usage Rules. All rights not expressly granted are reserved. The App, including its design, code, branding, and content we create, belongs to Solia or its licensors.
+
+Third-party materials and open-data downloads are governed by their identified licences. Restrictions in these Terms, including personal-use, non-commercial-use, copying, redistribution and competing-product restrictions, do not limit rights granted under those licences. The Open Food Facts-derived catalog download, including Solia's modifications, is offered under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/); its contents are subject to the licences identified with the download.
 
 ## 5. AI-generated content — important disclosure
 
