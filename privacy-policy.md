@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Solia Privacy Policy
 
-_Version 2.1 — drafted 2026-09-01. Status: DRAFT for test-cohort use; not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
+_Version 2.0 — updated 2026-09-26. Status: DRAFT for test-cohort use; not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
 
 **Operator:** Solia ([OPERATOR LEGAL NAME]), Ontario, Canada. Contact: **privacy@getsolia.com**. We plan to incorporate; if the operator changes, we will update this policy and notify users as required.
 

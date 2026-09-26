@@ -5,7 +5,7 @@ title: Terms of Service
 
 # Solia Terms of Service
 
-_Version 1.2 — drafted 2026-09-12. Status: DRAFT for test-cohort review; not activated. Not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
+_Version 1.0 — updated 2026-09-26. Status: DRAFT for test-cohort review. Not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
 
 ---
 
