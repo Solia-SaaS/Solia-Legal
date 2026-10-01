@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Solia Privacy Policy
 
-_Version 2.0 — updated 2026-09-26. Status: DRAFT for test-cohort use; not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
+_Version 2.0 — updated 2026-10-01. Status: DRAFT for test-cohort use; not approved for public launch while [OPERATOR LEGAL NAME] remains unresolved._
 
 **Operator:** Solia ([OPERATOR LEGAL NAME]), Ontario, Canada. Contact: **privacy@getsolia.com**. We plan to incorporate; if the operator changes, we will update this policy and notify users as required.
 
@@ -23,7 +23,7 @@ We collect data you provide in the app and data needed to operate and secure it.
 | Profile | Goals, constraints, coach notes, sleep pattern, weight, height, biology, fitness preferences | Personalization and coaching |
 | Schedule | Planned and actual blocks, templates, recurring patterns, sleep times, day anchors | Core scheduling |
 | Fitness and nutrition | Workouts, exercises, sets, loads, weigh-ins, meals, food searches, workout and meal photos | Tracking, history, estimates |
-| Voice | Microphone audio and its transcription when you use voice commands | Transcribe and execute the request; Solia does not store the source audio on its servers |
+| Voice | Microphone audio, its transcription, and your conversation with Pluto when you use voice commands | Transcribe and execute the request. Speech is transcribed by Apple or Google speech recognition on your device, or by OpenAI on our servers when that is unavailable; Solia does not store the source audio. The transcript and Pluto's replies are kept with your schedule (see Retention and deletion) |
 | Location | Places you explicitly save using while-in-use permission | Attach places to blocks and estimate commutes; no background location |
 | Social and communications | Follows, profile header, stories, direct/group/business messages, reactions, read receipts, memberships, shared photos/videos, avatars, and backgrounds | Social, messaging, group, and business features |
 | Device and security | Random install ID, push token, platform, timezone, app version, IP address and authentication/action events | Sessions, notifications, rate limits, fraud and abuse prevention |
@@ -35,7 +35,9 @@ We do not collect contacts, advertising identifiers, browsing history, or analyt
 ## How we use and disclose data
 
 - **Supabase** hosts authentication, databases, file storage, and server functions in the United States.
-- **OpenAI** processes voice audio for transcription and selected commands, photos, schedule, fitness, nutrition, goals, and notes used to generate requested estimates and coaching. Solia does not opt API data into model training.
+- **Anthropic** processes the text of your voice commands and your conversation with Pluto (never the audio), together with the schedule, preferences, and goals needed to act on them, and serves as a backup provider for planning and coaching requests. Solia does not opt API data into model training.
+- **OpenAI** processes voice audio for transcription when on-device recognition is unavailable, and selected commands, photos, schedule, fitness, nutrition, goals, and notes used to generate requested estimates and coaching. Solia does not opt API data into model training.
+- **Apple and Google** speech recognition transcribes your voice on the device, or through the platform's speech service according to your device settings, when you use live voice input.
 - **Google and Apple** provide sign-in. We receive a provider identifier and, when supplied, an email address; we never receive the provider password. Apple's Hide My Email may supply a relay address instead.
 - **Expo, Apple, and Google** route push notifications.
 - **Apple Maps** powers saved-place commute estimates and directions when used.
@@ -57,6 +59,7 @@ We use these processors to provide the listed services. We do not sell or rent p
 - **Shared groups and businesses:** a group or business with remaining members survives. Ownership transfers to a remaining member; the departing user's membership and account-linked content are removed, and exact account identifiers embedded in surviving records are cleared or scrubbed. A group or business with no remaining member may be deleted.
 - **Other-user and safety records:** another user's match-history row may remain without a live link to the deleted profile. A moderation report filed by another user may remain for safety review; the deleted account ID is removed and replaced with a random deletion-specific correlation key.
 - **Delayed cleanup and revocation:** deleted direct or group-message media, pair backgrounds, and group avatars or backgrounds can leave a service-only cleanup item containing the storage path and retry metadata. Cleanup is delayed at least 24 hours and runs only after Solia's current reference checks find no live product reference. Apple accounts can leave a service-only revocation item containing the former account ID, Apple refresh token, and retry metadata until Apple confirms revocation. These restricted work items are retained until successfully processed and are not available to app users.
+- **Voice transcripts and Pluto conversation:** the text of your voice commands and Pluto's replies is stored with your schedule and Weekly Structure while your account is active. Clear chat in the app removes the conversation, and account deletion removes it with the rest of your data. Solia never stores the audio. A per-request usage record (model, token counts, cost) is kept without the text for billing, limits, and abuse prevention.
 - **Backups:** deleted data may remain in access-restricted backups for up to about 30 days before those backups expire.
 
 ## Security and local storage
