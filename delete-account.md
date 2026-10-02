@@ -17,7 +17,7 @@ Email **privacy@getsolia.com** from the address associated with your account. We
 
 ## What deletion does
 
-- Deletes the authentication record and account-owned profile, schedule, fitness, nutrition, social, score, coaching-report, and storage data.
+- Deletes the authentication record and account-owned profile, schedule, to-do and task, fitness, nutrition, social, score, coaching-report, and storage data.
 - Deletes the complete one-to-one message thread, pair background, and mute state for both participants when either participant deletes their account.
 - Removes the departing account's membership, content, and identifiers from surviving groups and businesses. Ownership transfers deterministically when another member remains; empty containers may be deleted.
 - Removes moderation reports filed by the departing account. A report filed by another user may survive with its target account ID removed and replaced by a random deletion-specific correlation key.

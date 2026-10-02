@@ -22,6 +22,7 @@ We collect data you provide in the app and data needed to operate and secure it.
 | Account | Email when provided, Google or Apple account identifier, username/display name, birthdate | Sign-in, account recovery, identity, age gate |
 | Profile | Goals, constraints, coach notes, sleep pattern, weight, height, biology, fitness preferences | Personalization and coaching |
 | Schedule | Planned and actual blocks, templates, recurring patterns, sleep times, day anchors | Core scheduling |
+| To-dos and tasks | Your to-do lists, what you marked done, partly done or skipped and your notes about it, your tasks and their progress notes | Show your lists, record what happened, and let Pluto plan, carry over and grade your to-dos in coaching |
 | Fitness and nutrition | Workouts, exercises, sets, loads, weigh-ins, meals, food searches, workout and meal photos | Tracking, history, estimates |
 | Voice | Microphone audio, its transcription, and your conversation with Pluto when you use voice commands | Transcribe and execute the request. Speech is transcribed by Apple or Google speech recognition on your device, or by OpenAI on our servers when that is unavailable; Solia does not store the source audio. The transcript and Pluto's replies are kept with your schedule (see Retention and deletion) |
 | Location | Places you explicitly save using while-in-use permission | Attach places to blocks and estimate commutes; no background location |
@@ -35,8 +36,8 @@ We do not collect contacts, advertising identifiers, browsing history, or analyt
 ## How we use and disclose data
 
 - **Supabase** hosts authentication, databases, file storage, and server functions in the United States.
-- **Anthropic** processes the text of your voice commands and your conversation with Pluto (never the audio), together with the schedule, preferences, and goals needed to act on them, and serves as a backup provider for planning and coaching requests. Solia does not opt API data into model training.
-- **OpenAI** processes voice audio for transcription when on-device recognition is unavailable, and selected commands, photos, schedule, fitness, nutrition, goals, and notes used to generate requested estimates and coaching. Solia does not opt API data into model training.
+- **Anthropic** processes the text of your voice commands and your conversation with Pluto (never the audio), together with the schedule, to-do lists, tasks, preferences, and goals needed to act on them, and serves as a backup provider for planning and coaching requests. Solia does not opt API data into model training.
+- **OpenAI** processes voice audio for transcription when on-device recognition is unavailable, and selected commands, photos, schedule, to-do lists and tasks, fitness, nutrition, goals, and notes used to generate requested estimates and coaching. Solia does not opt API data into model training.
 - **Apple and Google** speech recognition transcribes your voice on the device, or through the platform's speech service according to your device settings, when you use live voice input.
 - **Google and Apple** provide sign-in. We receive a provider identifier and, when supplied, an email address; we never receive the provider password. Apple's Hide My Email may supply a relay address instead.
 - **Expo, Apple, and Google** route push notifications.
@@ -54,7 +55,7 @@ We use these processors to provide the listed services. We do not sell or rent p
 ## Retention and deletion
 
 - **Active account:** data is kept while needed for the account, history, shared features, security, and the purposes above.
-- **Account deletion:** the in-app **Delete account** flow removes the authentication record and account-owned profile, schedule, fitness, nutrition, social, scores, coaching reports, and storage data. You can also contact **privacy@getsolia.com**; we may require identity verification.
+- **Account deletion:** the in-app **Delete account** flow removes the authentication record and account-owned profile, schedule, to-dos and tasks, fitness, nutrition, social, scores, coaching reports, and storage data. You can also contact **privacy@getsolia.com**; we may require identity verification.
 - **One-to-one messages:** deleting either participant's account deletes the entire private one-to-one thread and pair background for both participants, including messages the other participant sent in that thread.
 - **Shared groups and businesses:** a group or business with remaining members survives. Ownership transfers to a remaining member; the departing user's membership and account-linked content are removed, and exact account identifiers embedded in surviving records are cleared or scrubbed. A group or business with no remaining member may be deleted.
 - **Other-user and safety records:** another user's match-history row may remain without a live link to the deleted profile. A moderation report filed by another user may remain for safety review; the deleted account ID is removed and replaced with a random deletion-specific correlation key.
